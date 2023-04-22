@@ -26,7 +26,7 @@ VLAN1 Hosts:
 
     TrueNAS host for file hosting via SMB, Proxmox Backups, and Veeam Agent backups
 
-    Proxmox host with 2 Ubuntu Server VM's | Ubuntu Server with Docker running a Plex Media Application Stack | Ubuntu Server running TP-Link Omada SDN Software
+    Proxmox host with 2 Ubuntu Server VM's: Ubuntu Server with Docker running a Plex Media Application Stack | Ubuntu Server running TP-Link Omada SDN Software
     
         Plex Media Application Stack:
             -Sonarr - TV Collection Manager
@@ -35,7 +35,7 @@ VLAN1 Hosts:
             -Gluetun - VPN Container - Other containers within the application stack are bound and routed through this containers network
             -Plex - Video streaming service
        
-    Raspberry Pi host running Tailscale within Ubuntu Server
+    Raspberry Pi host running Ubuntu Server: Tailscale
 
-    HP Host running Ubuntu Server with Docker running Pi-hole DNS server and a Discord bot
+    HP Host running Ubuntu Server with Docker: Pi-hole DNS server | Discord bot
 

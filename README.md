@@ -32,7 +32,7 @@ VLAN1 Hosts:
         -Sonarr - TV Collection Manager
         -Radarr - Movie Collection Manager
         -Jackett - Proxy server to translate tracker site specific http queries
-        -Gluetun - VPN Container - Other containers within the application stack are routed through this containers network
+        -Gluetun - VPN Container - Other containers within the application stack are bound and routed through this containers network
         -Plex - Video streaming service
        
     Raspberry Pi running Tailscale

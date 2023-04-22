@@ -26,7 +26,7 @@ VLAN1 Hosts:
 
     Truenas for file hosting via SMB, Proxmox Backups, and Veeam Agent backups
 
-    Proxmox with 2 Ubuntu VM's | Ubuntu running TP-Link Omada SDN Software | Ubuntu Server with Docker running a Plex media application stack
+    Proxmox with 2 Ubuntu Server VM's | Ubuntu Server with Docker running a Plex media application stack | Ubuntu Server running TP-Link Omada SDN Software
 
     Raspberry Pi running Tailscale so that I can remote into the network
 

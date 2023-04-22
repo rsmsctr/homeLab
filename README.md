@@ -28,12 +28,12 @@ VLAN1 Hosts:
 
     Proxmox with 2 Ubuntu Server VM's | Ubuntu Server with Docker running a Plex Media Application Stack | Ubuntu Server running TP-Link Omada SDN Software
     
-    Plex Media Application Stack:
-        -Sonarr - TV Collection Manager
-        -Radarr - Movie Collection Manager
-        -Jackett - Proxy server to translate tracker site specific http queries
-        -Gluetun - VPN Container - Other containers within the application stack are bound and routed through this containers network
-        -Plex - Video streaming service
+        Plex Media Application Stack:
+            -Sonarr - TV Collection Manager
+            -Radarr - Movie Collection Manager
+            -Jackett - Proxy server to translate tracker site specific http queries
+            -Gluetun - VPN Container - Other containers within the application stack are bound and routed through this containers network
+            -Plex - Video streaming service
        
     Raspberry Pi running Tailscale
 

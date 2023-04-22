@@ -2,7 +2,7 @@
 ![networkdiagram(7)](https://user-images.githubusercontent.com/95463866/233758211-da3f989f-9e4d-4f4b-917f-a5fef2e2dd8e.jpg)
 
 
-Hello and thank you for checking out my homelab! 
+Thanks for checking out my homelab! 
 
 Two VLANS:
 

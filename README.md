@@ -24,11 +24,18 @@ ACL rules are set to block communication between both LAN's on all ports.
 
 VLAN1 Hosts:
 
-    Truenas for file hosting via SMB, Proxmox Backups, and Veeam Agent backups
+    TrueNAS for file hosting via SMB, Proxmox Backups, and Veeam Agent backups
 
     Proxmox with 2 Ubuntu Server VM's | Ubuntu Server with Docker running a Plex media application stack | Ubuntu Server running TP-Link Omada SDN Software
-
+    
+    Plex Media Application Stack:
+        -Sonarr - TV Collection Manager
+        -Radarr - Movie Collection Manager
+        -Jackett - Proxy server to translate tracker site specific http queries
+        -Gluetun - VPN Container - Other containers within the application stack are routed through this containers network
+        -Plex - Video streaming service
+       
     Raspberry Pi running Tailscale
 
-    Ubuntu Server with Docker running Pi-hole and a Discord bot
+    Ubuntu Server with Docker running Pi-hole DNS server and a Discord bot
 

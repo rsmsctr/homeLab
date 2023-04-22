@@ -28,7 +28,7 @@ VLAN1 Hosts:
 
     Proxmox with 2 Ubuntu Server VM's | Ubuntu Server with Docker running a Plex media application stack | Ubuntu Server running TP-Link Omada SDN Software
 
-    Raspberry Pi running Tailscale so that I can remote into the network
+    Raspberry Pi running Tailscale
 
-    Ubuntu Server with Docker running Pi-hole and a Discord music bot
+    Ubuntu Server with Docker running Pi-hole and a Discord bot
 

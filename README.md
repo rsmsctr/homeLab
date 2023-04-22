@@ -6,17 +6,15 @@ Thanks for checking out my homelab!
 
 Two VLANS:
 
-VLAN1 - LAN - 192.168.0.0/24
-
-VLAN50 - WorkLAN - 192.168.50.0/24
+    VLAN1 - LAN - 192.168.0.1/24
+    VLAN50 - WorkLAN - 192.168.50.1/24
 
 
 
 Two SSID's:
 
-Personal - VLAN1
-
-Work - VLAN50
+    Personal - VLAN1
+    Work - VLAN50
 
 
 

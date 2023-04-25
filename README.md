@@ -29,11 +29,11 @@ VLAN1 Hosts:
         Plex Media Application Stack:
             Plex
             Docker:
-                -gluetun(1) - VPN Container - Other containers within the application stack are bound and routed through this containers network
-                -sonarr(2) - TV Collection Manager
-                -radarr(3) - Movie Collection Manager
-                -jackett(4) - Proxy server to translate tracker site specific http queries
-                -qbittorrent(5) - torrenting software
+                -gluetun(1) - VPN Container
+                -sonarr(2)
+                -radarr(3)
+                -jackett(4)
+                -qbittorrent(5)
        
     Raspberry Pi host running Ubuntu Server: Tailscale
 

@@ -1,5 +1,5 @@
 # Home Lab
-![networkdiagram(7)](https://user-images.githubusercontent.com/95463866/233758211-da3f989f-9e4d-4f4b-917f-a5fef2e2dd8e.jpg)
+![networkdiagram(7)(7) drawio](https://user-images.githubusercontent.com/95463866/234155553-7db73a89-5361-4aab-b946-e296806cfcc0.png)
 
 
 Thanks for checking out my homelab! 
@@ -27,11 +27,13 @@ VLAN1 Hosts:
     Proxmox host with 2 Ubuntu Server VM's: Ubuntu Server with Docker running a Plex Media Application Stack | Ubuntu Server running TP-Link Omada SDN Software
     
         Plex Media Application Stack:
-            -Sonarr - TV Collection Manager
-            -Radarr - Movie Collection Manager
-            -Jackett - Proxy server to translate tracker site specific http queries
-            -Gluetun - VPN Container - Other containers within the application stack are bound and routed through this containers network
-            -Plex - Video streaming service
+            Docker:
+                -gluetun(1) - VPN Container - Other containers within the application stack are bound and routed through this containers network
+                -sonarr(2) - TV Collection Manager
+                -radarr(3) - Movie Collection Manager
+                -jackett(4) - Proxy server to translate tracker site specific http queries
+                -qbittorrent(5) - torrenting software
+            Plex - Video streaming service
        
     Raspberry Pi host running Ubuntu Server: Tailscale
 

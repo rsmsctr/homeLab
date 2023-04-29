@@ -2,7 +2,6 @@
 ![networkdiagram(7)(7) drawio](https://user-images.githubusercontent.com/95463866/234155553-7db73a89-5361-4aab-b946-e296806cfcc0.png)
 
 
-Thanks for checking out my homelab! 
 
 Two VLANS:
 
